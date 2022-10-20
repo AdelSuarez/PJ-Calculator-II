@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+
+:root {
+    --background-primary: #D0D3D4;
+    --background-navbar: #2980B9;
+    --btn-hover: #BDC3C7;
+    --white: #fff;
+    --number-color: #28B463;
+    --number-background: #17202A;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: var(--background-primary);
+}
+
+/* HEADER */
+.navbar {
+    width: 100%;
+    height: 70px;
+    background-color: var(--background-navbar);
+    box-shadow: 0px 1px 12px 2px rgba(0,0,0,0.47);
+}
+
+.title {
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 700;
+    color: var(--white);
+    letter-spacing: 10px;
+}
+
+/* CALCULADORA */
+.container-calculator {
+    max-width: 400px;
+    margin: auto;
+    margin-top: 50px;
+    height: auto;
+    border-radius: 10px;
+    background-color: var(--white);
+    overflow: hidden;
+    box-shadow: 0px 1px 10px 2px rgba(0,0,0,0.47);
+}
+
+.input-number {
+    background-color: var(--number-background);
+    color: var(--number-color);
+    height: 80px;
+    padding: 26px 30px 30px 25px;
+    text-align: end;
+    font-size: large;
+}
+
+/* BUTTONS */
+
+.button-opt {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn {
+    width: 100px;
+    height: 70px;
+    border: 1px solid#D7DBDD ;
+    cursor: pointer;
+}
+
+.opt {
+    background-color: #cccccc;
+    font-weight: 700;
+    font-size: large;
+}
+
+.btn:hover {
+    background-color: var(--btn-hover);
+}
+
+.buttons {
+    display: flex;
+}
+.button-one {
+    display: flex;
+}
+
+.button-two {
+    display: flex;
+}
+.button-three {
+    display: flex;
+}
+.button-four {
+    display: flex;
+}
+
+.button-result {
+    display: flex;
+}
+
+.btn-result {
+    height: auto ;
+    background-color:#D35400;
+    border: none;
+    font-weight: 700;
+    font-size: large;
+}
+
+.btn-result:hover {
+    background-color: #BA4A00;
+}
+
+
+
+
+
+
+
+
+
